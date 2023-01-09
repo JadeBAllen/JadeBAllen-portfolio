@@ -6,4 +6,69 @@ body
 .font-primary
     {
         color:mediumseagreen;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+.navbar-brand title-icon 
+    {
+        font-size: 30px;
+        font-weight:bold;
+    }
+
+/*********************
+ABOUT
+*********************/
+
+#about
+    {
+        margin: 60px auto;
+        max-width: 400px;
+        text-align: center;
+    }
+
+#about img
+    {
+        border-radius: 50%;
+        width: 200px;
+        margin-bottom: 10px;
+        border-style:ridge;
+        border-color: mediumseagreen;
+    }
+
+.name
+    {
+        font-size: 40px;
+    }
+
+.vocation
+    {
+        font-size: 25px;
+        color: darkgrey;
+        margin-bottom: 10px;
+    }
+
+.skills
+    {
+        font-size: 20px;
+        color: mediumseagreen;
+        margin-bottom: 10px;
+    }
+
+.email
+    {
+        margin-top: 14px;
+        font-size: 20px;
+        color: mediumseagreen;
+    }
+
+.icons
+    {
+        font-size: 30px;
+        margin-top: 14px;
+    }
+
+#about .icons a
+    {
+        color: darkgrey;
     }
