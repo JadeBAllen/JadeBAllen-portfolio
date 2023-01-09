@@ -1,11 +1,11 @@
 body
     {
-        font-family: "monospace", "sans-serif"
+        font-family: "monospace", "sans-serif";
     }
 
 .font-primary
     {
-        color:mediumseagreen;
+        color:mediumturquoise;
         font-size: 30px;
         font-weight: bold;
     }
@@ -27,13 +27,26 @@ ABOUT
         text-align: center;
     }
 
+#about h2
+    {
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+#about .font-primary
+    {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
 #about img
     {
         border-radius: 50%;
         width: 200px;
         margin-bottom: 10px;
         border-style:ridge;
-        border-color: mediumseagreen;
+        border-color: mediumturquoise;
     }
 
 .name
@@ -51,7 +64,7 @@ ABOUT
 .skills
     {
         font-size: 20px;
-        color: mediumseagreen;
+        color: mediumturquoise;
         margin-bottom: 10px;
     }
 
@@ -59,7 +72,8 @@ ABOUT
     {
         margin-top: 14px;
         font-size: 20px;
-        color: mediumseagreen;
+        color: mediumturquoise;
+        font-weight: bold;
     }
 
 .icons
@@ -71,4 +85,41 @@ ABOUT
 #about .icons a
     {
         color: darkgrey;
+    }
+
+/********************
+    Projects
+********************/
+
+#projects h2
+    {
+        margin: 60px auto;
+        width: 80%;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+#projects .font-primary
+    {
+        font-size: 40px;
+        font-weight: bold
+    }
+
+#projects .card
+    {
+        width: 100%;
+    }
+
+#projects .card-title
+    {
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+#projects .card-text
+    {
+        color: mediumturquoise;
+        font-weight: bold;
+        font-size: 20px;
     }
